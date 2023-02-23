@@ -1,0 +1,166 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    padding: 0;
+    margin: 0;
+    background-size: 1280px;
+}
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 14px;
+    color: black;
+}
+#vien{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+.tieude{
+    text-align: center;
+    margin: 50px 0px;
+}
+h3{
+    font-size: 50px;
+    color: black;
+    padding: 10px 20px;
+    border:5px solid black ;
+    display: inline-block; 
+    color: white;
+    font-weight: 600px;
+    filter: opacity(70%);
+}
+ul.sanpham{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+ul.sanpham li{
+    padding-left: 10px;
+    padding-right: 10px;
+    flex-basis: 30%;
+    box-sizing: border-box;
+}
+ul.sanpham li img{
+    max-width: 100%;
+    height: auto;
+    
+    
+}
+ul.sanpham li .top{
+    position: relative;
+    overflow: hidden;
+}
+ul.sanpham li .top .hinhanh{
+    display: block;
+}
+ul.sanpham li:hover .top .hinhanh{
+    filter: opacity(80%);
+}
+ul.sanpham li .top a.xemngay{
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    background-color: black;
+    color: white;
+    padding: 30px 0px;
+    bottom: -80px;
+    position: absolute;
+    width: 100%;
+    transition: 0.25s ease-in-out;
+    opacity: 0.70;
+}
+ul.sanpham li:hover a.xemngay{
+    bottom: 0px;
+
+}
+ul.sanpham li .top .hinhanh{
+    display: block;
+}
+ul.sanpham li .top .hinhanh img{
+    display: block;
+}
+
+    .menu>ul>li{
+        display: inline-block;
+    }
+    .menu>ul>li>a{
+        display: block; 
+    }
+    .menu>ul{
+       
+        padding: 0px;
+        margin: 0px;
+        list-style: none;   
+        border-radius: 0px;
+        background-color: black;
+        text-align: center;
+        filter: opacity(70%);
+    }
+    .menu>ul>li>a{
+        text-decoration: none;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: larger;
+        color: white;
+        padding: 0 10px;
+        line-height: 40px;
+        
+    }
+    .menu>ul>li>a:hover{
+        color: red;
+    }
+    .menu>ul>li{
+        position: relative;
+    }
+    .menu ul ul{
+        position: absolute;
+        display: none;
+    }
+    .menu ul ul a{
+        display: block;
+    }
+    .menu>ul>li:hover>ul{
+        display: block;
+    }
+    .menu ul ul{
+        padding: 0px;
+        margin: 0px;
+        list-style: none;
+        border-radius: 1px;
+        width: 50x;
+        background-color: white;
+        box-shadow: 0 0 1px gray;
+        filter: opacity(70%);
+    }
+    .menu ul ul a{
+        line-height: 30px;
+        color: black;
+        text-decoration: none;
+        font-variant: small-caps;
+        font-size: larger;
+        padding: 0 10px;
+    }
+    .menu ul ul a:hover{
+        background-color: black;
+        color: red;
+        
+    }
+
+    .container>header{
+       
+        background-size: 100% 100%;
+        height: 0px;
+        padding-bottom:5%;
+    }
+.container>footer{
+        border-top:5px double white ;
+        line-height: 50px;
+        background-color: black;
+        text-align: center;
+        font-variant: small-caps;
+        clear: both;
+        color: white;
+        filter: opacity(70%);
+}

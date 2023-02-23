@@ -1,0 +1,50 @@
+*{
+    padding: 0 auto;
+    margin: 0 auto;
+}
+header{
+    width: 1150px;
+    height: 189px;
+    text-align: center;
+}
+nav{
+    height:25px ;
+    background: yellow;
+}
+article{
+    width: 631px;
+    height: 504px;
+    background-color: white;
+    float: left;   
+}
+aside{
+    width: 632px;
+    height: 504px;
+    background-color:white;
+    float: left;
+}
+input{
+    width: 430px;
+    height: 40px;
+    background-color: white;
+    margin: auto;
+}
+p{
+    width: 125px;
+    height: 20px;
+    
+    color: white;
+    border-radius: 10px;
+    background-color: black;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    float: left;
+}
+p:hover{
+    background-color: red;
+}
+.t1{
+    color: aliceblue;
+    text-decoration: none;
+}
